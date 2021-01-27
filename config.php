@@ -10,4 +10,4 @@
 
     spl_autoload_register($autoload);
 
-    define('INCLUDE_PATH','http://localhost/pess/portfolio/');
+    define('INCLUDE_PATH','https://pess.netlify.app/');
