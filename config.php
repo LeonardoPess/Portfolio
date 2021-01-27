@@ -11,9 +11,3 @@
     spl_autoload_register($autoload);
 
     define('INCLUDE_PATH','http://localhost/pess/portfolio/');
-
-    //Connect with database!
-    //define('HOST','localhost');
-    //define('USER','root');
-    //define('PASSWORD','');
-    //define('DATABASE','');

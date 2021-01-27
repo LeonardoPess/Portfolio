@@ -716,7 +716,7 @@ input[type="submit"] {
         display: block;
     }
     nav.mobile ul {
-        width: 100%;
+        width: 0;
         height: 90%;
         display: none;
         flex-direction: column;

@@ -1,21 +1,31 @@
 //Menu Mobile
-let toggleNavStatus = false;
+let menuStatus = false;
 const iconMenu = document.querySelector(".iconMenu");
 const menu = document.querySelector("nav.mobile ul");
 
-iconMenu.addEventListener('click', (e) => {
+iconMenu.addEventListener('click', toggleMenu);
+
+function toggleMenu(e) {
     e.preventDefault();
-    if (toggleNavStatus == false) {
-        menu.style.display = "flex";
-        toggleNavStatus = true;
-    } else if (toggleNavStatus == true) {
-        menu.style.display = "none";
-        toggleNavStatus = false;
+    if (menuStatus == false) {
+        openMenu();
+    } else {
+        closeMenu();
     }
-});
+}
+
+function openMenu() {
+    menu.style.display = "flex";
+    menu.style.width = "100%";
+    menuStatus = true;
+}
+
+function closeMenu() {
+    menu.style.display = "none";
+    menuStatus = false;
+}
 
 //Menu scroll
-
 const menuItems = document.querySelectorAll('header nav a[href^="#"]');
 
 menuItems.forEach(item => {
@@ -31,6 +41,7 @@ function scrollToIdOnClick(event) {
     event.preventDefault();
     const to = getScrollTopByHref(event.target) - 30;
 
+    closeMenu();
     scrollToPosition(to);
 };
 

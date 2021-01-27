@@ -46,11 +46,16 @@
 </header>
 
 <?php
-  if($url == '')
+
+  if(file_exists('pages/'.$url.'.php')){
+    include('pages/'.$url.'.php');
+  }else{
+    //podemos fazer o que quiser pois a pagina não existe.
     include('pages/home.php');
+  }
 ?>
   
 <script src="<?= INCLUDE_PATH ?>js/all.min.js"></script>
-<script src="js/main.js"></script>
+<script src="<?= INCLUDE_PATH ?>js/main.js"></script>
 </body>
 </html>
