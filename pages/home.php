@@ -172,6 +172,7 @@
         <div class="faq-description">
           <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
         </div><!--faq-description-->
+
       </div><!--faq-single-->
 
       <div class="faq-single">
@@ -179,12 +180,15 @@
         <div class="faq-prev">
           <span>01</span>
           <h2>Design & Development Setup process.</h2>
-          <i class="fas fa-arrow-right"></i>
+          <span id="faqArrow">
+            <i class="fas fa-arrow-right"></i>
+          </span><!--faqArrow-->
         </div><!--faq-prev-->
 
         <div class="faq-description">
           <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
         </div><!--faq-description-->
+        
       </div><!--faq-single-->
 
       <div class="faq-single">
@@ -192,12 +196,15 @@
         <div class="faq-prev">
           <span>01</span>
           <h2>Design & Development Setup process.</h2>
-          <i class="fas fa-arrow-right"></i>
+          <span id="faqArrow">
+            <i class="fas fa-arrow-right"></i>
+          </span><!--faqArrow-->
         </div><!--faq-prev-->
 
         <div class="faq-description">
           <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
         </div><!--faq-description-->
+        
       </div><!--faq-single-->
 
       <div class="faq-single">
@@ -205,12 +212,15 @@
         <div class="faq-prev">
           <span>01</span>
           <h2>Design & Development Setup process.</h2>
-          <i class="fas fa-arrow-right"></i>
+          <span id="faqArrow">
+            <i class="fas fa-arrow-right"></i>
+          </span><!--faqArrow-->
         </div><!--faq-prev-->
 
         <div class="faq-description">
           <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
         </div><!--faq-description-->
+        
       </div><!--faq-single-->
 
      <div class="faq-single">
@@ -218,12 +228,15 @@
         <div class="faq-prev">
           <span>01</span>
           <h2>Design & Development Setup process.</h2>
-          <i class="fas fa-arrow-right"></i>
+          <span id="faqArrow">
+            <i class="fas fa-arrow-right"></i>
+          </span><!--faqArrow-->
         </div><!--faq-prev-->
 
         <div class="faq-description">
           <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
         </div><!--faq-description-->
+        
       </div><!--faq-single-->
 
       <div class="faq-single">
@@ -231,12 +244,15 @@
         <div class="faq-prev">
           <span>01</span>
           <h2>Design & Development Setup process.</h2>
-          <i class="fas fa-arrow-right"></i>
+          <span id="faqArrow">
+            <i class="fas fa-arrow-right"></i>
+          </span><!--faqArrow-->
         </div><!--faq-prev-->
 
         <div class="faq-description">
           <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
         </div><!--faq-description-->
+        
       </div><!--faq-single-->
 
       <div class="faq-single">
@@ -244,12 +260,15 @@
         <div class="faq-prev">
           <span>01</span>
           <h2>Design & Development Setup process.</h2>
-          <i class="fas fa-arrow-right"></i>
+          <span id="faqArrow">
+            <i class="fas fa-arrow-right"></i>
+          </span><!--faqArrow-->
         </div><!--faq-prev-->
 
         <div class="faq-description">
           <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
         </div><!--faq-description-->
+        
       </div><!--faq-single-->
 
       <div class="faq-single">
@@ -257,12 +276,15 @@
         <div class="faq-prev">
           <span>01</span>
           <h2>Design & Development Setup process.</h2>
-          <i class="fas fa-arrow-right"></i>
+          <span id="faqArrow">
+            <i class="fas fa-arrow-right"></i>
+          </span><!--faqArrow-->
         </div><!--faq-prev-->
 
         <div class="faq-description">
           <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
         </div><!--faq-description-->
+        
       </div><!--faq-single-->
 
       <div class="faq-single">
@@ -270,12 +292,15 @@
         <div class="faq-prev">
           <span>01</span>
           <h2>Design & Development Setup process.</h2>
-          <i class="fas fa-arrow-right"></i>
+          <span id="faqArrow">
+            <i class="fas fa-arrow-right"></i>
+          </span><!--faqArrow-->
         </div><!--faq-prev-->
 
         <div class="faq-description">
           <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
         </div><!--faq-description-->
+        
       </div><!--faq-single-->
 
     </div><!--row-faq-->
@@ -316,7 +341,7 @@
 
             <div class="contato-text">
               <p>Chat With Me</p>
-              <h2>leonardopessoa799@gmail.com</h2>
+              <h2>pesscontato@gmail.com</h2>
             </div><!--contato-text-->
             
           </div><!--contato-box-->
