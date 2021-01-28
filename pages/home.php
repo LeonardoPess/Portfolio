@@ -164,7 +164,9 @@
         <div class="faq-prev">
           <span>01</span>
           <h2>Design & Development Setup process.</h2>
-          <i class="fas fa-arrow-right"></i>
+          <span id="faqArrow">
+            <i class="fas fa-arrow-right"></i>
+          </span><!--faqArrow-->
         </div><!--faq-prev-->
 
         <div class="faq-description">

@@ -109,10 +109,13 @@ for(i = 0; i < lenFaq; i++){
 
     function faqDesc(el){
         var faqDesc = el.querySelector('.faq-description');
+        const faqArrow = el.querySelector('#faqArrow');
         if(faqDesc.style.maxHeight){
             faqDesc.style.maxHeight = null;
+            faqArrow.classList.remove('open');
         }else{
             faqDesc.style.maxHeight = faqDesc.scrollHeight + 'px';
+            faqArrow.classList.add('open');
         }
     }
 }

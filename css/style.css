@@ -675,6 +675,7 @@ section.faq {
     color: #F26C4F;
     font-weight: bold;
     font-size: 16px;
+    transition: all .5s ease-in-out;
 }
 
 .faq-single h2 {
@@ -683,8 +684,12 @@ section.faq {
 
 .faq-single svg {
     margin-top: 5px;
-    cursor: pointer;
-    color: #797979;
+    color: #F26C4F;
+}
+
+#faqArrow.open{
+    transition: all .5s ease-in-out;
+    transform: rotate(90deg) translate(-10px);
 }
 
 .faq-active{
