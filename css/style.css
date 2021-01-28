@@ -100,10 +100,10 @@ nav.mobile {
 }
 
 .menu-btn-cool::before{
-    transform: translateY(-10px);
+    transform: translateY(-8px);
 }
 .menu-btn-cool::after{
-    transform: translateY(10px);
+    transform: translateY(8px);
 }
 
 /*// menu btn animation //*/
