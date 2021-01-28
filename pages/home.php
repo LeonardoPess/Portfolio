@@ -29,7 +29,9 @@
       <div class="sobre-right">
         <h1 class="section">Any Type Of Query & Discussion.</h1>
         <p>Let's talk with me</p>
-        <a href="">Ask a question</a>
+        <div class="cool-link2">
+          <a href="#contato">Ask a question</a>
+        </div><!--cool-link2-->
       </div><!--sobre-right-->
 
     </div><!--row-->
@@ -71,6 +73,7 @@
     <div class="navcard"></div>
     <div class="navcard navcardnow"></div>
     <div class="navcard"></div>
+    <div class="navcard"></div>
 
   </div><!--container-->
 </section><!--services-->
@@ -95,7 +98,7 @@
     <div class="layer"></div><!--layer-->
     <div class="chamada-text">
       <h4 class="section">Estimate Your Project</h4>
-      <h1 class="section">Don't Worry For <a href="">Contact</a></h1>
+      <h1 class="section">Don't Worry For <a href="#contato">Contact</a></h1>
     </div><!--chamada-text-->
   </section><!--chamada-contato-->
 </section>
@@ -127,6 +130,7 @@
   <div class="container">
 
     <div id="depoimentos" class="card-depoimento">
+      
       <div class="card-depoimento-left">
         <div class="chat-depoimento"></div>
         <h2>Does any industry face a more complex audience journey & marketing/sales</h2>
@@ -136,11 +140,11 @@
           <div class="navcard"></div>
           <div class="navcard navcardnow"></div>
           <div class="navcard"></div>
+          <div class="navcard"></div>
         </div><!--depoimento-nav-->
       </div><!--card-depoimento-->
 
       <div class="card-depoimento-right">
-      
       </div><!--card-depoimento-right-->
 
     </div><!--card-depoimento-->

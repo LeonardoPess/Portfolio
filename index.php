@@ -25,21 +25,23 @@
     <div class="logo"><a href="<?= INCLUDE_PATH ?>">Pess</a></div><!--logo-->
     <nav class="desktop">
       <ul>
-        <li><a class="selected" href="#home">Home</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#services">Serviços</a></li>
-        <li><a href="#portfolio">Portfólio</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a class="selected cool-link" href="#home">Home</a></li>
+        <li><a class="cool-link" href="#sobre">Sobre</a></li>
+        <li><a class="cool-link" href="#services">Serviços</a></li>
+        <li><a class="cool-link" href="#portfolio">Portfólio</a></li>
+        <li><a class="cool-link" href="#contato">Contato</a></li>
       </ul>
     </nav><!--desktop-->
     <nav class="mobile">
-      <a class="iconMenu" href=""><i class="fas fa-align-right"></i></a>
+      <div class="menu-btn">
+        <div class="menu-btn-cool"></div>
+      </div><!--menu-btn-->
       <ul>
-        <li><a class="selected" href="#home">Home</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#services">Serviços</a></li>
-        <li><a href="#portfolio">Portfólio</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a class="selected cool-link" href="#home">Home</a></li>
+        <li><a class="cool-link" href="#sobre">Sobre</a></li>
+        <li><a class="cool-link" href="#services">Serviços</a></li>
+        <li><a class="cool-link" href="#portfolio">Portfólio</a></li>
+        <li><a class="cool-link" href="#contato">Contato</a></li>
       </ul>
     </nav><!--mobile-->
   </div><!--container-->

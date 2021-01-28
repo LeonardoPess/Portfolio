@@ -1,9 +1,12 @@
-//Menu Mobile
-let menuStatus = false;
-const iconMenu = document.querySelector(".iconMenu");
-const menu = document.querySelector("nav.mobile ul");
+//vars global
+var d = document;
 
-iconMenu.addEventListener('click', toggleMenu);
+//Toggle menu mobile
+let menuStatus = false;
+const menuBtn = d.querySelector(".menu-btn");
+const menu = d.querySelector("nav.mobile ul");
+
+menuBtn.addEventListener('click', toggleMenu);
 
 function toggleMenu(e) {
     e.preventDefault();
@@ -18,23 +21,30 @@ function openMenu() {
     menu.style.display = "flex";
     menu.style.width = "100%";
     menuStatus = true;
+    menubtnAnimation(menuStatus)
 }
 
 function closeMenu() {
     menu.style.display = "none";
     menuStatus = false;
+    menubtnAnimation(menuStatus)
+}
+
+//Animation menu mobile
+function menubtnAnimation(menuStatus){
+    (menuStatus == true) ? menuBtn.classList.add('open') : menuBtn.classList.remove('open');
 }
 
 //Menu scroll
-const menuItems = document.querySelectorAll('header nav a[href^="#"]');
+const itemsScroll = d.querySelectorAll('a[href^="#"]');
 
-menuItems.forEach(item => {
+itemsScroll.forEach(item => {
     item.addEventListener('click', scrollToIdOnClick)
 });
 
 function getScrollTopByHref(element) {
     const id = element.getAttribute('href');
-    return document.querySelector(id).offsetTop;
+    return d.querySelector(id).offsetTop;
 }
 
 function scrollToIdOnClick(event) {
