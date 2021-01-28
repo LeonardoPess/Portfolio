@@ -18,14 +18,13 @@ function toggleMenu(e) {
 }
 
 function openMenu() {
-    menu.style.display = "flex";
-    menu.style.width = "100%";
+    menu.classList.add('show');
     menuStatus = true;
     menubtnAnimation(menuStatus)
 }
 
 function closeMenu() {
-    menu.style.display = "none";
+    menu.classList.remove('show');
     menuStatus = false;
     menubtnAnimation(menuStatus)
 }
