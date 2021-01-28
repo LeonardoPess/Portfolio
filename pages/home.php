@@ -160,57 +160,120 @@
     <div class="row-faq">
 
       <div class="faq-single">
-        <span>01</span>
-        <h2>Design & Development Setup process.</h2>
-        <i class="fas fa-arrow-right"></i>
+
+        <div class="faq-prev">
+          <span>01</span>
+          <h2>Design & Development Setup process.</h2>
+          <i class="fas fa-arrow-right"></i>
+        </div><!--faq-prev-->
+
+        <div class="faq-description">
+          <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
+        </div><!--faq-description-->
       </div><!--faq-single-->
 
       <div class="faq-single">
-        <span>02</span>
-        <h2>Design & Development Setup process.</h2>
-        <i class="fas fa-arrow-right"></i>
+
+        <div class="faq-prev">
+          <span>01</span>
+          <h2>Design & Development Setup process.</h2>
+          <i class="fas fa-arrow-right"></i>
+        </div><!--faq-prev-->
+
+        <div class="faq-description">
+          <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
+        </div><!--faq-description-->
       </div><!--faq-single-->
 
       <div class="faq-single">
-        <span>03</span>
-        <h2>Design & Development Setup process.</h2>
-        <i class="fas fa-arrow-right"></i>
+
+        <div class="faq-prev">
+          <span>01</span>
+          <h2>Design & Development Setup process.</h2>
+          <i class="fas fa-arrow-right"></i>
+        </div><!--faq-prev-->
+
+        <div class="faq-description">
+          <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
+        </div><!--faq-description-->
       </div><!--faq-single-->
 
       <div class="faq-single">
-        <span>04</span>
-        <h2>Design & Development Setup process.</h2>
-        <i class="fas fa-arrow-right"></i>
+
+        <div class="faq-prev">
+          <span>01</span>
+          <h2>Design & Development Setup process.</h2>
+          <i class="fas fa-arrow-right"></i>
+        </div><!--faq-prev-->
+
+        <div class="faq-description">
+          <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
+        </div><!--faq-description-->
+      </div><!--faq-single-->
+
+     <div class="faq-single">
+
+        <div class="faq-prev">
+          <span>01</span>
+          <h2>Design & Development Setup process.</h2>
+          <i class="fas fa-arrow-right"></i>
+        </div><!--faq-prev-->
+
+        <div class="faq-description">
+          <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
+        </div><!--faq-description-->
       </div><!--faq-single-->
 
       <div class="faq-single">
-        <span>05</span>
-        <h2>Design & Development Setup process.</h2>
-        <i class="fas fa-arrow-right"></i>
+
+        <div class="faq-prev">
+          <span>01</span>
+          <h2>Design & Development Setup process.</h2>
+          <i class="fas fa-arrow-right"></i>
+        </div><!--faq-prev-->
+
+        <div class="faq-description">
+          <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
+        </div><!--faq-description-->
       </div><!--faq-single-->
 
       <div class="faq-single">
-        <span>06</span>
-        <h2>Design & Development Setup process.</h2>
-        <i class="fas fa-arrow-right"></i>
+
+        <div class="faq-prev">
+          <span>01</span>
+          <h2>Design & Development Setup process.</h2>
+          <i class="fas fa-arrow-right"></i>
+        </div><!--faq-prev-->
+
+        <div class="faq-description">
+          <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
+        </div><!--faq-description-->
       </div><!--faq-single-->
 
       <div class="faq-single">
-        <span>07</span>
-        <h2>Design & Development Setup process.</h2>
-        <i class="fas fa-arrow-right"></i>
+
+        <div class="faq-prev">
+          <span>01</span>
+          <h2>Design & Development Setup process.</h2>
+          <i class="fas fa-arrow-right"></i>
+        </div><!--faq-prev-->
+
+        <div class="faq-description">
+          <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
+        </div><!--faq-description-->
       </div><!--faq-single-->
 
       <div class="faq-single">
-        <span>08</span>
-        <h2>Design & Development Setup process.</h2>
-        <i class="fas fa-arrow-right"></i>
-      </div><!--faq-single-->
 
-      <div class="faq-single">
-        <span>09</span>
-        <h2>Design & Development Setup process.</h2>
-        <i class="fas fa-arrow-right"></i>
+        <div class="faq-prev">
+          <span>01</span>
+          <h2>Design & Development Setup process.</h2>
+          <i class="fas fa-arrow-right"></i>
+        </div><!--faq-prev-->
+
+        <div class="faq-description">
+          <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
+        </div><!--faq-description-->
       </div><!--faq-single-->
 
     </div><!--row-faq-->

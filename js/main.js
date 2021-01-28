@@ -38,7 +38,7 @@ function menubtnAnimation(menuStatus){
 const itemsScroll = d.querySelectorAll('a[href^="#"]');
 
 itemsScroll.forEach(item => {
-    item.addEventListener('click', scrollToIdOnClick)
+    item.addEventListener('click', scrollToIdOnClick);
 });
 
 function getScrollTopByHref(element) {
@@ -93,3 +93,26 @@ function smoothScrollTo(endX, endY, duration) {
         window.scroll(newX, newY);
     }, 1000 / 60); // 60 fps
 };
+
+//Faq dropDown
+const faq = d.querySelectorAll(".faq-single");
+let i;
+var lenFaq = faq.length;
+
+for(i = 0; i < lenFaq; i++){
+    faq[i].addEventListener('click', toggleFaq);
+
+    function toggleFaq(){
+        this.classList.toggle('faq-active');
+        faqDesc(this);
+    }
+
+    function faqDesc(el){
+        var faqDesc = el.querySelector('.faq-description');
+        if(faqDesc.style.display){
+            faqDesc.style.display = null;
+        }else{
+            faqDesc.style.display = "block";
+        }
+    }
+}
