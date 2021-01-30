@@ -119,3 +119,26 @@ for(i = 0; i < lenFaq; i++){
         }
     }
 }
+
+//scroll Top
+
+btnScrollTop = d.querySelector('#btnScrollToTop');
+
+btnScrollTop.addEventListener('click',scrollTop);
+window.addEventListener('scroll',toggleBtnScrollTop);
+
+function scrollTop() {
+    smoothScrollTo(0, 0);
+}
+
+function toggleBtnScrollTop() {
+    (window.pageYOffset > 40) ?  showBtnScrollTop() : removeBtnScrollTop();
+}
+
+function showBtnScrollTop() {
+    btnScrollTop.classList.add('scroll-top-active')
+}
+
+function removeBtnScrollTop() {
+    btnScrollTop.classList.remove('scroll-top-active')
+}

@@ -177,6 +177,39 @@ header a.selected {
 
 /*// end header //*/
 
+/*// arrow top //*/
+
+.scroll-top{
+    width: 0;
+    height: 0;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    
+    background-color: #F26C4F;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.scroll-top-active{
+    width: 50px;
+    height: 50px;
+
+    z-index: 999;
+    transition: all .3s ease-in-out;
+}
+
+/*// end arrow top //*/
 
 /*// home-top //*/
 
@@ -277,6 +310,7 @@ section.sobre .row {
 .sobre-left {
     width: 50%;
     padding: 0 40px;
+    margin-top: 12px;
 }
 
 .sobre-left h2 {
@@ -299,7 +333,12 @@ section.sobre .row {
     display: inline-block;
     margin-top: 50px;
     font-size: 30px;
+    font-weight: bold;
     color: #F26C4F;
+}
+
+.sobre-right svg{
+    margin-left: 30px;
 }
 
 
@@ -375,11 +414,11 @@ h1.section {
 }
 
 .img-card2 {
-    background-image: url(../images/fog.svg);
+    background-image: url(../images/website.svg);
 }
 
 .img-card3 {
-    background-image: url(../images/mao.svg);
+    background-image: url(../images/sistemas.svg);
 }
 
 .card-single p {
@@ -483,7 +522,7 @@ section.chamada-contato {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: rgba(50, 50, 50, 0.9);
+    background-color: rgba(30, 30, 30, 0.9);
 }
 
 .chamada-text {
@@ -515,11 +554,12 @@ section.portfolio {
     position: relative;
     padding: 40px 0;
     display: flex;
-    overflow-x: hidden;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .jobs {
-    width: 33.3%;
+    width: 30%;
     height: 400px;
     position: relative;
     background-color: #222222;
@@ -527,47 +567,34 @@ section.portfolio {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.sencond {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(50, 50, 50, 0.6);
-}
-
-.center {
-    width: 50%;
-    margin: 0 20px;
-}
-
-.center .arrow {
-    width: 60px;
-    height: 60px;
-    transform: translateY(-50%);
-    position: absolute;
-    top: 50%;
-    z-index: 1;
-    text-align: center;
-    line-height: 60px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
-.center .arrow-left {
-    left: -30px;
+.arrow-portfolio{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 45%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.portifolio-arrow-left{
+    left: -27px;
     background-color: white;
     color: #F26C4F;
 }
 
-.center .arrow-right {
-    right: -30px;
+.portifolio-arrow-right{
+    right: -27px;
+    background-color:  #F26C4F;
     color: white;
-    background-color: #F26C4F;
-    ;
 }
-
 
 /*// end portfolio //*/
 
@@ -662,6 +689,14 @@ section.faq {
     cursor: pointer;
     text-align: left;
     background-color: rgb(44, 44, 44);
+
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Safari */
+    -khtml-user-select: none;       /* Konqueror HTML */
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* Internet Explorer/Edge */
+    user-select: none;              /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
 }
 
 .faq-prev{

@@ -47,6 +47,10 @@
   </div><!--container-->
 </header>
 
+  <div id="btnScrollToTop" class="scroll-top">
+    <i class="fas fa-arrow-up"></i>
+  </div><!--scrollTop-->
+
 <?php
 
   if(file_exists('pages/'.$url.'.php')){
