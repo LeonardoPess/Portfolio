@@ -109,21 +109,37 @@
     <div class="row-portfolio">
 
       <div class="jobs">
-
+        <img src="images/job.jpg" alt="">
+        <div class="info-project">
+          <h2>G3INOX</h2>
+          <p>Site instuticionale para mostrar informações sobre a empresa</p>
+          <a href="<?= INCLUDE_PATH ?>portfolio">Ver Projeto</a>
+        </div>
       </div><!--jobs-->
 
       <div class="jobs">
-
+        <img src="images/job.jpg" alt="">
+        <div class="info-project">
+          <h2>G3INOX</h2>
+          <p>Site instuticionale para mostrar informações sobre a empresa</p>
+          <a href="<?= INCLUDE_PATH ?>portfolio">Ver Projeto</a>
+        </div>
       </div><!--jobs-->
 
       <div class="jobs">
-
+        <img src="images/job.jpg" alt="">
+        <div class="info-project">
+          <h2>G3INOX</h2>
+          <p>Site instuticionale para mostrar informações sobre a empresa</p>
+          <a href="<?= INCLUDE_PATH ?>portfolio">Ver Projeto</a>
+        </div><!--info-project-->
       </div><!--jobs-->
-
-      <div class="portifolio-arrow-left arrow-portfolio"><i class="fa fa-arrow-left"></i></div>
-      <div class="portifolio-arrow-right arrow-portfolio"><i class="fa fa-arrow-right"></i></div>
 
     </div><!--row-portfolio-->
+
+    <div class="portfolio-btn">
+      <a href="<?= INCLUDE_PATH ?>portfolio">Ver Todos Projetos</a>
+    </div><!--portfolio-btn-->
 
   </div><!--container-->
 </section><!--portfolio-->

@@ -63,5 +63,6 @@
   
 <script src="<?= INCLUDE_PATH ?>js/all.min.js"></script>
 <script src="<?= INCLUDE_PATH ?>js/main.js"></script>
+<script src="<?= INCLUDE_PATH ?>js/menu.js"></script>
 </body>
 </html>
