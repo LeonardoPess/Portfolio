@@ -72,3 +72,4 @@ function mouseOffProject(){
     const projectDesc = this.querySelector(".info-project");
     projectDesc.style.opacity = "0";
 }
+
