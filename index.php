@@ -33,10 +33,10 @@
       </ul>
     </nav><!--desktop-->
     <nav class="mobile">
-      <div class="menu-btn">
+      <div class="menu-btn" aria-expanded="false">
         <div class="menu-btn-cool"></div>
       </div><!--menu-btn-->
-      <ul>
+      <ul aria-expanded="false">
         <li><a class="selected cool-link" href="#home">Home</a></li>
         <li><a class="cool-link" href="#sobre">Sobre</a></li>
         <li><a class="cool-link" href="#services">Serviços</a></li>
@@ -60,9 +60,7 @@
     include('pages/home.php');
   }
 ?>
-  
-<script src="<?= INCLUDE_PATH ?>js/all.min.js"></script>
-<script src="<?= INCLUDE_PATH ?>js/main.js"></script>
-<script src="<?= INCLUDE_PATH ?>js/menu.js"></script>
+<script src="<?= INCLUDE_PATH ?>./src/all.min.js"></script>
+<script type="module" src="<?= INCLUDE_PATH ?>./src/App.js"></script>
 </body>
 </html>
