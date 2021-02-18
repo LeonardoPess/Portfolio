@@ -147,26 +147,6 @@ nav.mobile {
     opacity: 1;
     transform: scale(1);
   }
-  
-  .arrow-nav {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-  }
-  
-  .arrow-nav button {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    color: white;
-    background: #fb5 url('../img/arrow.svg') center center no-repeat;
-  }
-  
-  .arrow-nav button.prev {
-    transform: rotate(-180deg);
-  }
 
 /*// menu btn cool //*/
 .menu-btn{

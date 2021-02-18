@@ -1,5 +1,5 @@
 import Menu from './modules/Menu.js';
-import SlideNav from './modules/Slide.js';
+import SlideNav from './modules/SlideNav.js';
 import Dropdown from './modules/Dropdown.js';
 import ScrollToTop from './modules/ScrollToTop.js';
 import SmoothScroll from './modules/SmoothScroll.js';

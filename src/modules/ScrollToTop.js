@@ -1,11 +1,12 @@
 import smoothScrollTo from './smoothScrollTo.js';
+import debounce from './debounce.js';
 
 export default class Menu {
   constructor(btn, classActive) {
     this.btn = document.querySelector(btn);
     this.classActive = classActive;
 
-    this.toggleBtn = this.toggleBtn.bind(this);
+    this.toggleBtn = debounce(this.toggleBtn.bind(this), 200);
   }
 
   showBtn() {
