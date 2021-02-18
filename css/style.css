@@ -597,8 +597,6 @@ section.chamada-contato {
 }
 
 .chamada-text h2 a {
-    text-align: right;
-    font-size: 50px;
     color: #F26C4F;
 }
 
@@ -1005,6 +1003,12 @@ input[type="submit"] {
     .sobre-right {
         width: 100%;
         margin-top: 40px;
+    }
+    .sobre-right a {
+        font-size: 1.5em;
+    }
+    .sobre-right svg{
+        margin-left: 1em;
     }
     .card-single {
         width: 100%;

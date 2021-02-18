@@ -60,7 +60,7 @@
     include('pages/home.php');
   }
 ?>
-<script src="<?= INCLUDE_PATH ?>./src/all.min.js"></script>
-<script type="module" src="<?= INCLUDE_PATH ?>./src/App.js"></script>
+<script src="<?= INCLUDE_PATH ?>src/all.min.js"></script>
+<script type="module" src="<?= INCLUDE_PATH ?>src/App.js"></script>
 </body>
 </html>

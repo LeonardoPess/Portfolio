@@ -248,52 +248,6 @@
         </div><!--faq-description-->
         
       </div><!--faq-single-->
-
-      <div class="faq-single">
-
-        <div class="faq-prev">
-          <span>07</span>
-          <h2>Design & Development Setup process.</h2>
-          <span id="faqArrow">
-            <i class="fas fa-arrow-right"></i>
-          </span><!--faqArrow-->
-        </div><!--faq-prev-->
-
-        <div class="faq-description">
-          <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
-        </div><!--faq-description-->
-        
-      </div><!--faq-single-->
-
-      <div class="faq-single">
-
-        <div class="faq-prev">
-          <span>08</span>
-          <h2>Design & Development Setup process.</h2>
-          <span id="faqArrow">
-            <i class="fas fa-arrow-right"></i>
-          </span><!--faqArrow-->
-        </div><!--faq-prev-->
-
-        <div class="faq-description">
-          <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
-        </div><!--faq-description-->
-        
-      </div><!--faq-single-->
-
-      <div class="faq-single">
-
-        <div class="faq-prev">
-          <span>09</span>
-          <h2>Design & Development Setup process.</h2>
-          <span id="faqArrow">
-            <i class="fas fa-arrow-right"></i>
-          </span><!--faqArrow-->
-        </div><!--faq-prev-->
-
-        <div class="faq-description">
-          <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology</p>
-        </div><!--faq-description-->
         
       </div><!--faq-single-->
 
