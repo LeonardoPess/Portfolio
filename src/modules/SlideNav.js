@@ -1,4 +1,4 @@
-import Slide from './slide.js';
+import Slide from './Slide.js';
 
 export default class SlideNav extends Slide {
   constructor(slide, wrapper) {
