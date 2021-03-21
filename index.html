@@ -1,4 +1,52 @@
-<section class="home-top">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!--// title //-->
+  <title>Pess</title>
+
+  <!--// meta //-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--// link //-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="logo"><a href="">Pess</a></div><!--logo-->
+    <nav class="desktop">
+      <ul>
+        <li><a class="selected cool-link" href="#home">Home</a></li>
+        <li><a class="cool-link" href="#sobre">Sobre</a></li>
+        <li><a class="cool-link" href="#services">Serviços</a></li>
+        <li><a class="cool-link" href="#portfolio">Portfólio</a></li>
+        <li><a class="cool-link" href="#contato">Contato</a></li>
+      </ul>
+    </nav><!--desktop-->
+    <nav class="mobile">
+      <div class="menu-btn" aria-expanded="false">
+        <div class="menu-btn-cool"></div>
+      </div><!--menu-btn-->
+      <ul aria-expanded="false">
+        <li><a class="selected cool-link" href="#home">Home</a></li>
+        <li><a class="cool-link" href="#sobre">Sobre</a></li>
+        <li><a class="cool-link" href="#services">Serviços</a></li>
+        <li><a class="cool-link" href="#portfolio">Portfólio</a></li>
+        <li><a class="cool-link" href="#contato">Contato</a></li>
+      </ul>
+    </nav><!--mobile-->
+  </div><!--container-->
+</header>
+
+  <div id="btnScrollToTop" class="scroll-top">
+    <i class="fas fa-arrow-up"></i>
+  </div><!--scrollTop-->
+
+  <section class="home-top">
   <div class="container">
 
     <div  id="home" class="home-left">
@@ -23,7 +71,9 @@
 
       <div class="sobre-left">
         <h2>Meu nome é Leonardo Pessoa, moro em Indaiatuba/SP & eu sou desenvolvedor web.</h2>
-        <p>Atualmente estudo JavaScript buscando dominar bem a linguagem para poder estudar React. No desenvolvimento do Front-End eu tenho muita facilidade e estou sempre fazendo coisas novas como designs, animações e funcionalidades ultilizando html, css e js! No Back-End eu consigo desenvolver algumas aplicações e sistemas com PHP e MySQL, porém primeiro quero focar no Front-End e em design para depois me aprofundar mais em back-end!</p>
+        <p>Atualmente estudo React e buscando melhorar ainda mais o JavaScript. No desenvolvimento do Front-End eu tenho muita facilidade e estou sempre fazendo coisas novas como designs, animações e funcionalidades ultilizando html, css e js! No Back-End eu consigo desenvolver algumas aplicações e sistemas com PHP e MySQL, porém estou estou focado no Front-End com React!
+        Atuo na área como freelancer, então se estiver precisando de alguma coisa é só me chamar!
+        </p>
       </div><!--sobre-left-->
 
       <div class="sobre-right">
@@ -48,21 +98,21 @@
           <div class="img-card img-card1"></div>
           <h2>Landing Page</h2>
           <p>Landing Page personalizada e totalmente do zero. Ótima para quem quer mostrar seus serviços, produtos e melhorar a comunicação com seus clientes de forma simples.</p>
-          <div class="linecard"></div><span> A partir de R$400 </span><div class="linecard"></div>
+          <div class="linecard"></div><span> A partir de R$200 </span><div class="linecard"></div>
         </div><!--card-single-->
 
         <div class="card-single cardnow">
           <div class="img-card img-card2"></div>
           <h2>Site Institucional</h2>
           <p>Sites instutuicionais construidos totalmente do zero e 100% responsivo. Permite total personalização do seu site. Perfeito para quem quer exclusividade.</p>
-          <div class="linecard"></div><span> A partir de R$600 </span><div class="linecard"></div>
+          <div class="linecard"></div><span> A partir de R$500 </span><div class="linecard"></div>
         </div><!--card-single-->
 
         <div class="card-single">
           <div class="img-card img-card3"></div>
-          <h2>Sistemas</h2>
-          <p>Sistemas que podem fazer você ganhar tempo e produtividade como sistemas de gestão de clientes, controle de estoque, blogs e sistemas administrativos (cms)</p>
-          <div class="linecard"></div> <span> A partir de R$500 </span> <div class="linecard"></div>
+          <h2>Soluções</h2>
+          <p>Soluções, scripts, upgrade e atualizações. Permitindo que você que já tem um site leve ele para um proximo nivel. Para você que quer se destacar.</p>
+          <div class="linecard"></div> <span> A partir de R$50 </span> <div class="linecard"></div>
         </div><!--card-single-->
 
       </div><!--card-wraper-->
@@ -99,23 +149,23 @@
 <section class="portfolio">
 <h1 id="portfolio" class="section">Portfólio</h1>
   <ul class="custom-controls">
-    <li><img src="<?php INCLUDE_PATH ?>images/job.jpg" alt=""></li>
-    <li><img src="<?php INCLUDE_PATH ?>images/job.jpg" alt=""></li>
-    <li><img src="<?php INCLUDE_PATH ?>images/job.jpg" alt=""></li>
-    <li><img src="<?php INCLUDE_PATH ?>images/job.jpg" alt=""></li>
-    <li><img src="<?php INCLUDE_PATH ?>images/job.jpg" alt=""></li>
-    <li><img src="<?php INCLUDE_PATH ?>images/job.jpg" alt=""></li>
-    <li><img src="<?php INCLUDE_PATH ?>images/job.jpg" alt=""></li>
+    <li><img src="images/job.jpg" alt=""></li>
+    <li><img src="images/job.jpg" alt=""></li>
+    <li><img src="images/job.jpg" alt=""></li>
+    <li><img src="images/job.jpg" alt=""></li>
+    <li><img src="images/job.jpg" alt=""></li>
+    <li><img src="images/job.jpg" alt=""></li>
+    <li><img src="images/job.jpg" alt=""></li>
   </ul>
   <div class="slide-wrapper">
     <ul class="slide">
-      <li><img src="<?php INCLUDE_PATH ?>images/job.jpg"></li>
-      <li><img src="<?php INCLUDE_PATH ?>images/job.jpg"></li>
-      <li><img src="<?php INCLUDE_PATH ?>images/job.jpg"></li>
-      <li><img src="<?php INCLUDE_PATH ?>images/job.jpg"></li>
-      <li><img src="<?php INCLUDE_PATH ?>images/job.jpg"></li>
-      <li><img src="<?php INCLUDE_PATH ?>images/job.jpg"></li>
-      <li><img src="<?php INCLUDE_PATH ?>images/job.jpg"></li>
+      <li><img src="images/job.jpg"></li>
+      <li><img src="images/job.jpg"></li>
+      <li><img src="images/job.jpg"></li>
+      <li><img src="images/job.jpg"></li>
+      <li><img src="images/job.jpg"></li>
+      <li><img src="images/job.jpg"></li>
+      <li><img src="images/job.jpg"></li>
     </ul>
   </div>
 </section><!--portfolio-->
@@ -341,3 +391,8 @@
 
   </div><!--container-->
 </section><!--contato-->
+
+<script src="./src/all.min.js"></script>
+<script type="module" src="./src/App.js"></script>
+</body>
+</html>
