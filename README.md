@@ -1,19 +1,32 @@
-# Portfolio
+<h1 align="center">
+  <a href="https://leonardopess.github.io/Portfolio/" target="_blank">
+    Portfólio
+  </a>
+</h1>
 
-<div style="margin: 0 auto; text-align: center">
-  <img style="width: 100px; height: 100px" src="screenshot.png">
-</div>
+<p align="center"><b>Portfólio</b> foi desenvolvido com HTML, CSS E JAVASCRIPT, uma landing page aplicando um pouco de design e funcionalidades aprendidas com Javascript! Onde eu me apresento um pouco mais e ofereço meus serviços!</p>
 
- Site feito 100% por mim para treinar e revisar o HTML, CSS e o JavaScript e também para aplicar alguns aprendizados sobre design e coisas do tipo.
- 
- O site é um portfolio em que eu consigo me apresentar e mostrar alguns trabalhos, serviços, contato, etc.
- 
- Tentei criar tudo do zero pensando no passo a passo de como fazer cada coisa para forçar minha lógica, mas no fim eu consultei alguns projetos antigos e projetos de outras pessoas para ver realmente qual era a melhor forma de fazer! Usei muita coisa que aprendi no curso da Origamid e em outros estudos e esse foi um dos primeiros sites que eu fiz com JavaScript puro, então eu consegui práticar muito e testar várias coisas! O HTML foi bem tranquilo e aprendi um pouco mais de CSS também!
+<p align="center">
+   <a href="https://www.linkedin.com/in/leonardo-pessoa-5733121b5/">
+      <img alt="Leonardo Pessoa" src="https://img.shields.io/badge/-Leonardo Pessoa-4e5acf?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  
+  <a href="https://github.com/LeonardoPess">
+    <img alt="Made by Leonardo Pessoa" src="https://img.shields.io/badge/made%20by-Leonardo%20Pessoa-5965e0">
+  </a>
 
- ## Ferramentas
- 
- No projeto foi utilizado:
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/LeonardoPess/wildbeast?color=rgb(89,101,224)%22">
 
- - HTML5
- - CSS3
- - JS
+  <img alt="Contributors" src="https://img.shields.io/github/contributors/LeonardoPess/wildbeast?color=rgb(89,101,224)">
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361?color=rgb(89,101,224)">
+</p>
+
+<p align="center">
+  <img src="screenshot.png">
+</p>
+
+<p align="center">Uma landing page onde eu fiquei bastante feliz com o design e as funcionalidades aplicadas, podendo conhecer e compreender mais sobre o javascript! Um dos projetos em que começei a realmente entender cada coisa que o javascript estava fazendo para chegar no resultado final!</p>
+
+## Demo
+https://leonardopess.github.io/Portfolio/
